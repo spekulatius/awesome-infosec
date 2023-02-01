@@ -31,10 +31,6 @@ Personal notes and awesome infosec stuff.
 
 <!-- CONTENT -->
 
-## Featured (new releases)
-
-- [Apple](https://apple.com) - Apple as a placeholder.
-
 ## Tools
 
 ### Active Directory
@@ -43,12 +39,6 @@ Personal notes and awesome infosec stuff.
 - [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Checks for attack vectors in AD.
 
 <!-- END CONTENT -->
-
-## Follow
-
-<!-- list people worth following on social sites (Twitter, LinkedIn, GitHub, YouTube etc.) -->
-
-Who else should we be following!?
 
 ## Contributing
 
