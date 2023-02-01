@@ -26,9 +26,8 @@ Personal notes and awesome infosec stuff.
 
 ## Contents
 
-- [Featured (new releases)](#featured-new-releases)
-- [Section 1](#section-1)
-- [Follow](#follow)
+- [Tools](#tools)
+  - [Active Directory](#active-directory)
 
 <!-- CONTENT -->
 
@@ -36,9 +35,12 @@ Personal notes and awesome infosec stuff.
 
 - [Apple](https://apple.com) - Apple as a placeholder.
 
-## Section 1
+## Tools
 
-- [Microsoft](https://www.microsoft.com/) - Microsoft as an example.
+### Active Directory
+
+- [vletoux/pingcastle](https://github.com/vletoux/pingcastle) - Runs an initial scan and gives an high-level overview.
+- [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Checks for attack vectors in AD.
 
 <!-- END CONTENT -->
 
