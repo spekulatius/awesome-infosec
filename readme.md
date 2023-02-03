@@ -28,6 +28,7 @@ Personal notes and awesome infosec stuff.
 
 - [Interesting Bugs](#interesting-bugs)
   - [Image Converters](#image-converters)
+  - []
 - [Tools](#tools)
   - [Active Directory](#active-directory)
 
@@ -42,6 +43,11 @@ Personal notes and awesome infosec stuff.
 - [ImageMagick - Shell injection via PDF password](https://insert-script.blogspot.com/2020/11/imagemagick-shell-injection-via-pdf.html) - `2021-11-21`.
 - [`CVE-2021-32802`](https://nvd.nist.gov/vuln/detail/CVE-2021-32802) [#1261413](https://hackerone.com/reports/1261413) - HEIC image preview can be used to invoke Imagick `2020-07-14`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution ([exploit-db.com/exploits/39791](https://www.exploit-db.com/exploits/39791)).
+
+### XSS
+
+- [OWASP: XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
+- [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 
 ## Tools
 
