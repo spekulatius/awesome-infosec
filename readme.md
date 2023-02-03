@@ -31,6 +31,14 @@ Personal notes and awesome infosec stuff.
 
 <!-- CONTENT -->
 
+## Interesting Bugs
+
+### Image Converters
+
+- [`CVE-2022-44268`](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC) - Arbitrary File Read over ImageMagick
+- [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution ([exploit-db.com/exploits/39791](https://www.exploit-db.com/exploits/39791)).
+
+
 ## Tools
 
 ### Active Directory
