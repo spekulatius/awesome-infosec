@@ -28,7 +28,7 @@ Personal notes and awesome infosec stuff.
 
 - [Interesting Bugs](#interesting-bugs)
   - [Image Converters](#image-converters)
-  - []
+  - [XSS](#xss)
 - [Tools](#tools)
   - [Active Directory](#active-directory)
 
@@ -46,8 +46,9 @@ Personal notes and awesome infosec stuff.
 
 ### XSS
 
-- [OWASP: XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html)
-- [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
+- [OWASP: XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html).
+- [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet).
+- [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS): Awesome Listing about XSS.
 
 ## Tools
 
