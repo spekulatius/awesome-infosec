@@ -26,6 +26,8 @@ Personal notes and awesome infosec stuff.
 
 ## Contents
 
+- [Interesting Bugs](#interesting-bugs)
+  - [Image Converters](#image-converters)
 - [Tools](#tools)
   - [Active Directory](#active-directory)
 
