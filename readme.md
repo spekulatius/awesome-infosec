@@ -58,11 +58,3 @@ Personal notes and awesome infosec stuff.
 - [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Checks for attack vectors in AD.
 
 <!-- END CONTENT -->
-
-## Contributing
-
-[Contributions of any kind welcome, just follow the guidelines](contributing.md)!
-
-### Contributors
-
-[Thanks goes to these contributors](https://github.com/spekulatius/awesome-infosec/graphs/contributors)!
