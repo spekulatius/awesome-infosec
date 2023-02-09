@@ -28,6 +28,7 @@ Personal notes and awesome infosec stuff.
 
 - [Interesting Bugs](#interesting-bugs)
   - [Image Converters](#image-converters)
+  - [data:](#data)
   - [XSS](#xss)
 - [Tools](#tools)
   - [Active Directory](#active-directory)
@@ -44,11 +45,17 @@ Personal notes and awesome infosec stuff.
 - [`CVE-2021-32802`](https://nvd.nist.gov/vuln/detail/CVE-2021-32802) [#1261413](https://hackerone.com/reports/1261413) - HEIC image preview can be used to invoke Imagick `2020-07-14`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution ([exploit-db.com/exploits/39791](https://www.exploit-db.com/exploits/39791)).
 
+### `data:`-Attribute
+
+- [#1444682](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in Swagger UI
+- [#1276742](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor
+
 ### XSS
 
 - [OWASP: XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Filter Evasion Cheat Sheet by OWASP.
 - [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - XSS Cheat Sheet by Portswigger.
 - [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS) - Awesome Page about XSS.
+
 
 ## Tools
 
