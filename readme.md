@@ -28,7 +28,7 @@ Personal notes and awesome infosec stuff.
 
 - [Interesting Bugs](#interesting-bugs)
   - [Image Converters](#image-converters)
-  - [data:](#data)
+  - [`data:`-Attribute](#data-attribute)
   - [XSS](#xss)
 - [Tools](#tools)
   - [Active Directory](#active-directory)
@@ -56,10 +56,18 @@ Personal notes and awesome infosec stuff.
 - [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - XSS Cheat Sheet by Portswigger.
 - [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS) - Awesome Page about XSS.
 
+### Request Smuggling
 
-## Tools
+- [#737140](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack.
+- [#771666](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on api.zomato.com.
+
+#### Tools
+
+- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3 [`Video`](https://www.youtube.com/watch?v=w-eJM2Pc0KI).
 
 ### Active Directory
+
+#### Tools
 
 - [vletoux/pingcastle](https://github.com/vletoux/pingcastle) - Runs an initial scan and gives an high-level overview.
 - [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Checks for attack vectors in AD.
