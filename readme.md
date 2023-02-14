@@ -57,10 +57,11 @@ Personal notes and awesome infosec stuff.
 
 - [#737140](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack.
 - [#771666](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on api.zomato.com.
+- [HTTP Desync Attacks: Smashing into the Cell Next Door](https://www.youtube.com/watch?v=w-eJM2Pc0KI) - DEF CON 27 Conference talk by James Kettle (albinowax) of PortSwigger `2019-11-16`.
 
 ### Tools
 
-- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3 [`Video`](https://www.youtube.com/watch?v=w-eJM2Pc0KI).
+- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3 .
 
 ## Active Directory
 
