@@ -61,7 +61,7 @@ Personal notes and awesome infosec stuff.
 
 ### Tools
 
-- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3 .
+- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3.
 
 ## Active Directory
 
