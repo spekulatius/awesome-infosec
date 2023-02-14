@@ -44,8 +44,8 @@ Personal notes and awesome infosec stuff.
 
 ## `data:`-Attribute
 
-- [#1444682](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in Swagger UI.
-- [#1276742](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor.
+- [#1444682](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in Swagger UI `2022-01-09`.
+- [#1276742](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor `2021-07-24`.
 
 ## XSS
 
