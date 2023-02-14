@@ -55,9 +55,9 @@ Personal notes and awesome infosec stuff.
 
 ## Request Smuggling
 
-- [#737140](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack.
-- [#771666](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on api.zomato.com.
+- [#771666](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on api.zomato.com `2020-01-10`.
 - [HTTP Desync Attacks: Smashing into the Cell Next Door](https://www.youtube.com/watch?v=w-eJM2Pc0KI) - DEF CON 27 Conference talk by James Kettle (albinowax) of PortSwigger `2019-11-16`.
+- [#737140](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack `2019-11-14`.
 
 ### Tools
 
