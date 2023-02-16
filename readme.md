@@ -52,6 +52,7 @@ Personal notes and awesome infosec stuff.
 - [OWASP: XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Filter Evasion Cheat Sheet by OWASP.
 - [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - XSS Cheat Sheet by Portswigger.
 - [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS) - Awesome Page about XSS.
+- [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts) - Portswigger XSS context break outs.
 
 ## Request Smuggling
 
