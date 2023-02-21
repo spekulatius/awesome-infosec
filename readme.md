@@ -26,7 +26,7 @@ Personal notes and awesome infosec stuff.
 
 ## Contents
 
-- [Image Converters](#image-converters)
+- [Image Libs: Converters, etc.](#image-libs-converters-etc)
 - [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
 - [Request Smuggling](#request-smuggling)
@@ -34,11 +34,12 @@ Personal notes and awesome infosec stuff.
 
 <!-- CONTENT -->
 
-## Image Converters
+## Image Libs: Converters, etc.
 
 - [ImageMagick: The hidden vulnerability behind your online images](https://www.metabaseq.com/imagemagick-zero-days/) - `2023-02-01`.
 - [`CVE-2022-44268`](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC) - Arbitrary File Read over ImageMagick ([alternative](https://github.com/voidz0r/CVE-2022-44268)).
 - [ImageMagick - Shell injection via PDF password](https://insert-script.blogspot.com/2020/11/imagemagick-shell-injection-via-pdf.html) - `2021-11-21`.
+- [#1154542](https://hackerone.com/reports/1154542) - RCE in GitLab when removing metadata with ExifTool `2021-04-07`.
 - [`CVE-2021-32802`](https://nvd.nist.gov/vuln/detail/CVE-2021-32802) - HEIC image preview can be used to invoke Imagick [#1261413](https://hackerone.com/reports/1261413) `2020-07-14`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution ([exploit-db.com/exploits/39791](https://www.exploit-db.com/exploits/39791)).
 
