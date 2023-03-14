@@ -41,6 +41,7 @@ Personal notes and awesome infosec stuff.
 - [ImageMagick - Shell injection via PDF password](https://insert-script.blogspot.com/2020/11/imagemagick-shell-injection-via-pdf.html) - `2021-11-21`.
 - [#1154542](https://hackerone.com/reports/1154542) - RCE in GitLab when removing metadata with ExifTool `2021-04-07`.
 - [`CVE-2021-32802`](https://nvd.nist.gov/vuln/detail/CVE-2021-32802) - HEIC image preview can be used to invoke Imagick [#1261413](https://hackerone.com/reports/1261413) `2020-07-14`.
+- [`CVE-2019-11932`](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) - Double-free bug in WhatsApp turns to RCE ([BBRE](https://www.youtube.com/watch?v=lplExF6djQ4)) `2019-10-02`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution ([exploit-db.com/exploits/39791](https://www.exploit-db.com/exploits/39791)).
 
 ## `data:`-Attribute
