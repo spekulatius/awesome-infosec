@@ -8,7 +8,7 @@
 
 <!-- subtitle -->
 
-Personal notes and awesome infosec stuff.
+Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 
 <!-- image -->
 
