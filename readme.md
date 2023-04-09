@@ -30,9 +30,10 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
 - [Request Smuggling](#request-smuggling)
-- [Active Directory](#active-directory)
+- [Open Redirects](#open-redirects)
 - [PHP](#php)
-- [Python](#python) 
+- [Python](#python)
+- [Active Directory](#active-directory)
 
 <!-- CONTENT -->
 
@@ -69,6 +70,10 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 
 - [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3.
 
+## Open Redirects
+
+- [#1032610](https://hackerone.com/reports/1032610) - Chaining requests to bypass a blacklist `2020-11-12`.
+
 ## PHP
 
 - [https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)
@@ -76,9 +81,6 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 ## Python
 
 - [https://blog.abdulrah33m.com/prototype-pollution-in-python/](https://blog.abdulrah33m.com/prototype-pollution-in-python/)
-
-
-
 
 ## Active Directory
 
