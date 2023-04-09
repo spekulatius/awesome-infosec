@@ -31,6 +31,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [XSS](#xss)
 - [Request Smuggling](#request-smuggling)
 - [Active Directory](#active-directory)
+- [PHP](#php)
 
 <!-- CONTENT -->
 
@@ -62,6 +63,10 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [HTTP Desync Attacks: Smashing into the Cell Next Door](https://www.youtube.com/watch?v=w-eJM2Pc0KI) - DEF CON 27 Conference talk by James Kettle (albinowax) of PortSwigger `2019-11-16`.
 - [#737140](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack `2019-11-14`.
 - [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn) - `2019-08-07`.
+
+## PHP
+
+- [https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)
 
 ### Tools
 
