@@ -32,6 +32,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [Request Smuggling](#request-smuggling)
 - [Active Directory](#active-directory)
 - [PHP](#php)
+- [Python](#python) 
 
 <!-- CONTENT -->
 
@@ -67,6 +68,11 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 ## PHP
 
 - [https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)
+
+## Python
+
+- [https://blog.abdulrah33m.com/prototype-pollution-in-python/](https://blog.abdulrah33m.com/prototype-pollution-in-python/)
+
 
 ### Tools
 
