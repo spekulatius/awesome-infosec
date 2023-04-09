@@ -65,6 +65,10 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [#737140](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack `2019-11-14`.
 - [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn) - `2019-08-07`.
 
+### Tools
+
+- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3.
+
 ## PHP
 
 - [https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)
@@ -74,9 +78,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [https://blog.abdulrah33m.com/prototype-pollution-in-python/](https://blog.abdulrah33m.com/prototype-pollution-in-python/)
 
 
-### Tools
 
-- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool written in Python 3.
 
 ## Active Directory
 
