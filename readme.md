@@ -33,6 +33,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [Open Redirects](#open-redirects)
 - [PHP](#php)
 - [Python](#python)
+- [Docker](#docker)
 - [Active Directory](#active-directory)
 
 <!-- CONTENT -->
@@ -81,6 +82,11 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 ## Python
 
 - [https://blog.abdulrah33m.com/prototype-pollution-in-python/](https://blog.abdulrah33m.com/prototype-pollution-in-python/)
+
+## Docker
+
+- [https://pythonspeed.com/articles/docker-secret-scanner/](https://pythonspeed.com/articles/docker-secret-scanner/)
+- [https://pythonspeed.com/articles/docker-python-security-scan/](https://pythonspeed.com/articles/docker-python-security-scan/)
 
 ## Active Directory
 
