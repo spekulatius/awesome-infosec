@@ -26,7 +26,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 
 ## Contents
 
-- [Image Libs: Converters, etc.](#image-libs-converters-etc)
+- [Image Libs: Converters, Resizers, etc.](#image-libs-converters-resizers-etc-pp)
 - [WYSIWYG Editors](#wysiwyg-editors)
 - [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
@@ -39,7 +39,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 
 <!-- CONTENT -->
 
-## Image Libs: Converters, etc.
+## Image Libs: Converters, Resizers, etc. pp
 
 - [ImageMagick: The hidden vulnerability behind your online images](https://www.metabaseq.com/imagemagick-zero-days/) - `2023-02-01`.
 - [`CVE-2022-44268`](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC) - Arbitrary File Read over ImageMagick [`#1858574`](https://hackerone.com/reports/1858574) [alternative](https://github.com/voidz0r/CVE-2022-44268).
