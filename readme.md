@@ -26,7 +26,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 
 ## Contents
 
-- [Image Libs: Converters, Resizers, etc.](#image-libs-converters-resizers-etc-pp)
+- [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
 - [WYSIWYG Editors](#wysiwyg-editors)
 - [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
