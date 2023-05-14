@@ -65,6 +65,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - XSS Cheat Sheet by Portswigger.
 - [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS) - Awesome Page about XSS.
 - [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts) - Portswigger XSS context break outs.
+- [Breaking XSS mitigations via Script Gadgets](https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf) - Conference talk from 2017 explaining various CSP bypasses using Script Gadgets.
 
 ## Request Smuggling
 
