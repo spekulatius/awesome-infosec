@@ -32,6 +32,7 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 - [XSS](#xss)
 - [Request Smuggling](#request-smuggling)
 - [Open Redirects](#open-redirects)
+- [SQLi](#sqli)
 - [PHP](#php)
 - [Python](#python)
 - [Docker](#docker)
@@ -81,6 +82,10 @@ Personal notes and awesome infosec stuff. Highly subjective selection by nature.
 ## Open Redirects
 
 - [#1032610](https://hackerone.com/reports/1032610) - Chaining requests to bypass a blacklist `2020-11-12`.
+
+## SQLi
+
+- [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - SQL Injection Payload List.
 
 ## PHP
 
