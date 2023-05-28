@@ -8,7 +8,7 @@
 
 <!-- subtitle -->
 
-Personal notes and awesome infosec stuff. Highly subjective selection by nature.
+Personal notes and awesome infosec stuff for a bash-focused workflow. Highly subjective selection by nature.
 
 <!-- image -->
 
