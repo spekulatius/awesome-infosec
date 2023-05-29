@@ -89,16 +89,16 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## PHP
 
-- [PHP Magic Tricks: Type Juggling](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf)
+- [PHP Magic Tricks: Type Juggling](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf) `2015`
 
 ## Python
 
-- [Prototype Pollution in Python](https://blog.abdulrah33m.com/prototype-pollution-in-python/) `2023-01-04`
+- [Prototype Pollution in Python](https://blog.abdulrah33m.com/prototype-pollution-in-python/) - `2023-01-04`.
 
 ## Docker
 
-- [Finding leaked secrets in your Docker image with a scanner](https://pythonspeed.com/articles/docker-secret-scanner/) `2022-02-01`
-- [Security scanners for Python and Docker: from code to dependencies](https://pythonspeed.com/articles/docker-python-security-scan/) `2020-05-20`
+- [Finding leaked secrets in your Docker image with a scanner](https://pythonspeed.com/articles/docker-secret-scanner/) - `2022-02-01`.
+- [Security scanners for Python and Docker: from code to dependencies](https://pythonspeed.com/articles/docker-python-security-scan/) - `2020-05-20`.
 
 ## Active Directory
 
