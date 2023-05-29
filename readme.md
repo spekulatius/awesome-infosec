@@ -89,7 +89,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## PHP
 
-- [PHP Magic Tricks: Type Juggling](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf) `2015`
+- [PHP Magic Tricks: Type Juggling](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf) - `2015`.
 
 ## Python
 
