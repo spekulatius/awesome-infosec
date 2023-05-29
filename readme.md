@@ -27,6 +27,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 ## Contents
 
 - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
+- [Archives: ZipSlip, TarSlip, etc. pp](#archives-zipslip-tarslip-etc-pp)
 - [WYSIWYG Editors](#wysiwyg-editors)
 - [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
@@ -49,6 +50,11 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`CVE-2021-32802`](https://nvd.nist.gov/vuln/detail/CVE-2021-32802) - HEIC image preview can be used to invoke Imagick [#1261413](https://hackerone.com/reports/1261413) `2020-07-14`.
 - [`CVE-2019-11932`](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) - Double-free bug in WhatsApp turns to RCE ([BBRE](https://www.youtube.com/watch?v=lplExF6djQ4)) `2019-10-02`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution ([Exploit-DB](https://www.exploit-db.com/exploits/39791)).
+
+## Archives: ZipSlip, TarSlip, etc. pp
+
+- [#1914118](https://hackerone.com/reports/1914118) - [`PR`](https://github.com/github/securitylab/issues/728), [`Video`](https://www.youtube.com/watch?v=F95U912u7OQ) `2023-03-21`.
+- [`CVE-2022-3607`](https://huntr.dev/bounties/2d1db3c9-93e8-4902-a55b-5ea53c22aa11/) - ZipSlip Symlink variant allows to read any file within OctoPrint Box in [octoprint/octoprint](https://github.com/OctoPrint/OctoPrint) [`Commit`](https://github.com/octoprint/octoprint/commit/3cca3a43f3d085e9bbe5a5840c8255bb1b5d052e) `2022-08-24`.
 
 ## WYSIWYG Editors
 
