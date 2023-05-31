@@ -43,7 +43,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## Image Libs: Converters, Resizers, etc. pp
 
-- [`CVE-2023-34153`](https://nvd.nist.gov/vuln/detail/CVE-2023-34153) - Command injection via via `video:vsync` or `video:pixel-format` [`Commit`](https://github.com/ImageMagick/ImageMagick/issues/6338) `2023-05-30`.
+- [`CVE-2023-34153`](https://nvd.nist.gov/vuln/detail/CVE-2023-34153) - Command injection via `video:vsync` or `video:pixel-format` [`Commit`](https://github.com/ImageMagick/ImageMagick/issues/6338) `2023-05-30`.
 - [ImageMagick: The hidden vulnerability behind your online images](https://www.metabaseq.com/imagemagick-zero-days/) - `2023-02-01`.
 - [`CVE-2022-44268`](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC) - Arbitrary File Read over ImageMagick [`#1858574`](https://hackerone.com/reports/1858574) [`alternative`](https://github.com/voidz0r/CVE-2022-44268).
 - [ImageMagick - Shell injection via PDF password](https://insert-script.blogspot.com/2020/11/imagemagick-shell-injection-via-pdf.html) - `2021-11-21`.
