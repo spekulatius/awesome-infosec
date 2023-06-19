@@ -63,6 +63,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 - [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically.
 - [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+- [Insecure Deserialization Detection in Python](https://scholarworks.sjsu.edu/etd_projects/1270?utm_source=scholarworks.sjsu.edu%2Fetd_projects%2F1270) - Project work by Aneesh Verma discussing deserialization issues `2023-05`.  
 
 ## WYSIWYG Editors
 
