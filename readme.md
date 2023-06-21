@@ -26,6 +26,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## Contents
 
+- [Bug Chains](#bug-chains)
 - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
 - [Archives: ZipSlip and TarSlip](#archives-zipslip-and-tarslip)
 - [Serialization and Deserialization](#serialization-and-deserialization)
@@ -41,6 +42,10 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Active Directory](#active-directory)
 
 <!-- CONTENT -->
+
+## Bug Chains
+
+- [A smorgasbord of a bug chain: postMessage, JSONP, WAF bypass, DOM-based XSS, CORS, CSRF…](https://jub0bs.com/posts/2023-05-05-smorgasbord-of-a-bug-chain/) - a complex bug chain consisting of an insecure message event listener, a shoddy JSONP endpoint, a WAF bypass, DOM-based XSS on an out-of-scope subdomain, and a permissive CORS configuration `2023-05-05`.
 
 ## Image Libs: Converters, Resizers, etc. pp
 
