@@ -27,7 +27,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 ## Contents
 
 - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
-- [Archives: ZipSlip, TarSlip, etc. pp](#archives-zipslip-tarslip-etc-pp)
+- [Archives: ZipSlip and TarSlip](#archives-zipslip-and-tarslip)
 - [Serialization and Deserialization](#serialization-and-deserialization)
 - [WYSIWYG Editors](#wysiwyg-editors)
 - [`data:`-Attribute](#data-attribute)
@@ -53,7 +53,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`CVE-2019-11932`](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) - Double-free bug in WhatsApp turns to RCE [`BBRE`](https://www.youtube.com/watch?v=lplExF6djQ4) `2019-10-02`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution [`Exploit-DB`](https://www.exploit-db.com/exploits/39791).
 
-## Archives: ZipSlip, TarSlip, etc. pp
+## Archives: ZipSlip and TarSlip
 
 - [`CVE-2023-32981`](https://nvd.nist.gov/vuln/detail/CVE-2023-32981) - Arbitrary file write vulnerability in Jenkins Pipeline Utility Steps Plugin 2.15.2 and earlier using crafted archives as parameters [`GitHub Security Lab`](https://securitylab.github.com/advisories/GHSL-2023-058_GHSL-2023-059_Pipeline_Utility_Steps_Plugin/) `2023-05-16`.
 - [`#1914118`](https://hackerone.com/reports/1914118) - [`PR`](https://github.com/github/securitylab/issues/728), [`Video`](https://www.youtube.com/watch?v=F95U912u7OQ) `2023-03-21`.
