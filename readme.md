@@ -30,6 +30,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
 - [Archives: ZipSlip and TarSlip](#archives-zipslip-and-tarslip)
 - [Serialization and Deserialization](#serialization-and-deserialization)
+- [URLs](#urls)
 - [WYSIWYG Editors](#wysiwyg-editors)
 - [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
@@ -69,7 +70,13 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 - [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically.
 - [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
-- [Insecure Deserialization Detection in Python](https://scholarworks.sjsu.edu/etd_projects/1270?utm_source=scholarworks.sjsu.edu%2Fetd_projects%2F1270) - Project work by Aneesh Verma discussing deserialization issues `2023-05`.  
+- [Insecure Deserialization Detection in Python](https://scholarworks.sjsu.edu/etd_projects/1270?utm_source=scholarworks.sjsu.edu%2Fetd_projects%2F1270) - Project work by Aneesh Verma discussing deserialization issues `2023-05`.
+
+## URLs
+
+- [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986) - official RFC Uniform Resource Identifier (URI).
+- [http://http://http://@http://http://?http://#http://](https://daniel.haxx.se/blog/2022/09/08/http-http-http-http-http-http-http/) - Daniel Stenberg, the author of curl, discusses URLs validation `2022-09-08`.
+- [What Is a URL?](https://azeemba.com/posts/what-is-a-url.html) - Dangers of inconsistent parsing of URLs `2023-04-30`.
 
 ## WYSIWYG Editors
 
