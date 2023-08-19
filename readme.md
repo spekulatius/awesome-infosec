@@ -26,6 +26,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## Contents
 
+- [Orientation](#orientation)
 - [Bug Chains](#bug-chains)
 - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
 - [Archives: ZipSlip and TarSlip](#archives-zipslip-and-tarslip)
@@ -43,6 +44,10 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Active Directory](#active-directory)
 
 <!-- CONTENT -->
+
+## Orientation
+
+- [roadmap.sh](https://roadmap.sh/cyber-security) - Cyber-Security Roadmap.
 
 ## Bug Chains
 
