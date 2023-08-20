@@ -80,9 +80,9 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## URLs
 
-- [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986) - Official RFC Uniform Resource Identifier (URI) `2005-01`.
+- [`RFC 3986`](https://www.rfc-editor.org/rfc/rfc3986) - Official RFC Uniform Resource Identifier (URI) `2005-01`.
 - [What Is a URL?](https://azeemba.com/posts/what-is-a-url.html) - Dangers of inconsistent parsing of URLs `2023-04-30`.
-- [http://http://http://@http://http://?http://#http://](https://daniel.haxx.se/blog/2022/09/08/http-http-http-http-http-http-http/) - Daniel Stenberg, the author of curl, discusses URLs validation `2022-09-08`.
+- [`http://http://http://@http://http://?http://#http://`](https://daniel.haxx.se/blog/2022/09/08/http-http-http-http-http-http-http/) - Daniel Stenberg, the author of curl, discusses URLs validation `2022-09-08`.
 - [A New Era of SSRF - Exploiting URL Parser in Trending Programming Languages!](https://www.youtube.com/watch?v=voTHFdL9S2k) - BlackHat talk by Orange Tsai discussing how different libs parse URLs [`Slides`](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf) `2017`.
 
 ## WYSIWYG Editors
