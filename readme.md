@@ -31,7 +31,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
 - [Archives: ZipSlip and TarSlip](#archives-zipslip-and-tarslip)
 - [Serialization and Deserialization](#serialization-and-deserialization)
-- [URLs](#urls)
+- [URL Parsers](#url-parsers)
 - [WYSIWYG Editors](#wysiwyg-editors)
 - [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
@@ -78,7 +78,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
 - [Insecure Deserialization Detection in Python](https://scholarworks.sjsu.edu/etd_projects/1270?utm_source=scholarworks.sjsu.edu%2Fetd_projects%2F1270) - Project work by Aneesh Verma discussing deserialization issues `2023-05`.
 
-## URLs
+## URL Parsers
 
 - [`RFC 3986`](https://www.rfc-editor.org/rfc/rfc3986) - Official RFC Uniform Resource Identifier (URI) `2005-01`.
 - [What Is a URL?](https://azeemba.com/posts/what-is-a-url.html) - Dangers of inconsistent parsing of URLs `2023-04-30`.
