@@ -36,7 +36,6 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [XSS](#xss)
   - [`data:`-Attribute](#data-attribute)
 - [Request Smuggling](#request-smuggling)
-- [Open Redirects](#open-redirects)
 - [SQLi](#sqli)
 - [PHP](#php)
 - [Python](#python)
@@ -53,6 +52,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 - [Two XSS Vulnerabilities in Azure with Embedded postMessage IFrames](https://orca.security/resources/blog/examining-two-xss-vulnerabilities-in-azure-services/) - iframe, postMessage and XSS `2023-06-14`.
 - [A smorgasbord of a bug chain: postMessage, JSONP, WAF bypass, DOM-based XSS, CORS, CSRF…](https://jub0bs.com/posts/2023-05-05-smorgasbord-of-a-bug-chain/) - a complex bug chain consisting of an insecure message event listener, a shoddy JSONP endpoint, a WAF bypass, DOM-based XSS on an out-of-scope subdomain, and a permissive CORS configuration `2023-05-05`.
+- [`#1032610`](https://hackerone.com/reports/1032610) - Chaining requests to bypass a blacklist `2020-11-12`.
 - [WordPress Transposh: Exploiting a Blind SQL Injection via XSS](https://www.rcesecurity.com/2022/07/WordPress-Transposh-Exploiting-a-Blind-SQL-Injection-via-XSS/) - combining three CVEs using weak default config, using stored XSS, and blind SQL `2022-07-22`. 
 - [XXE-scape through the front door: circumventing the firewall with HTTP request smuggling](https://honoki.net/2020/03/18/xxe-scape-through-the-front-door-circumventing-the-firewall-with-http-request-smuggling/) - XML External Entity injection (XXE) vulnerability combined with request smuggling `2020-03-18`.
 
@@ -115,10 +115,6 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 ### Tools
 
 - [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool `Python 3`.
-
-## Open Redirects
-
-- [`#1032610`](https://hackerone.com/reports/1032610) - Chaining requests to bypass a blacklist `2020-11-12`.
 
 ## SQLi
 
