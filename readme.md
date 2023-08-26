@@ -33,8 +33,8 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Serialization and Deserialization](#serialization-and-deserialization)
 - [URL Parsers](#url-parsers)
 - [WYSIWYG Editors](#wysiwyg-editors)
-- [`data:`-Attribute](#data-attribute)
 - [XSS](#xss)
+  - [`data:`-Attribute](#data-attribute)
 - [Request Smuggling](#request-smuggling)
 - [Open Redirects](#open-redirects)
 - [SQLi](#sqli)
@@ -92,11 +92,6 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`CVE-2023-30943`](https://nvd.nist.gov/vuln/detail/CVE-2023-30943) - Moodle vulnerability allowing a remote user to send a specially crafted HTTP request and create arbitrary folders on the system using TinyMCE loaders `2023-05-11`.
 - [`CVE-2011-4906`](https://nvd.nist.gov/vuln/detail/CVE-2011-4906) - Joomla 1.5.12 TinyMCE vulnerability leading to RCE (via Arbitrary File Upload) [`#778629`](https://hackerone.com/reports/778629) [`Exploit-DB`](https://www.exploit-db.com/exploits/10183).
 
-## `data:`-Attribute
-
-- [`#1444682`](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in outdated Swagger UI `2022-01-09`.
-- [`#1276742`](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor `2021-07-24`.
-
 ## XSS
 
 - [OWASP: XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Filter Evasion Cheat Sheet by OWASP.
@@ -104,6 +99,11 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS) - Awesome Page about XSS.
 - [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts) - Portswigger XSS context break outs.
 - [Breaking XSS mitigations via Script Gadgets](https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf) - Conference talk from 2017 explaining various CSP bypasses using Script Gadgets `2017`.
+
+### `data:`-Attribute
+
+- [`#1444682`](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in outdated Swagger UI `2022-01-09`.
+- [`#1276742`](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor `2021-07-24`.
 
 ## Request Smuggling
 
