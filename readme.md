@@ -37,8 +37,9 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Request Smuggling](#request-smuggling)
 - [SQLi](#sqli)
 - [Bug Chains](#bug-chains)
-- [PHP](#php)
-- [Python](#python)
+- [Language-Level](#language-level)
+  - [PHP](#php)
+  - [Python](#python)
 - [Secret-Scanning](#secret-scanning)
   - [Docker](#docker)
 
@@ -121,11 +122,13 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [WordPress Transposh: Exploiting a Blind SQL Injection via XSS](https://www.rcesecurity.com/2022/07/WordPress-Transposh-Exploiting-a-Blind-SQL-Injection-via-XSS/) - combining three CVEs using weak default config, using stored XSS, and blind SQL `2022-07-22`. 
 - [XXE-scape through the front door: circumventing the firewall with HTTP request smuggling](https://honoki.net/2020/03/18/xxe-scape-through-the-front-door-circumventing-the-firewall-with-http-request-smuggling/) - XML External Entity injection (XXE) vulnerability combined with request smuggling `2020-03-18`.
 
-## PHP
+## Language-Level
+
+### PHP
 
 - [PHP Magic Tricks: Type Juggling](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf) - `2015`.
 
-## Python
+### Python
 
 - [Prototype Pollution in Python](https://blog.abdulrah33m.com/prototype-pollution-in-python/) - `2023-01-04`.
 
