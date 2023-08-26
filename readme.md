@@ -41,7 +41,6 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [PHP](#php)
 - [Python](#python)
 - [Docker](#docker)
-- [Active Directory](#active-directory)
 
 <!-- CONTENT -->
 
@@ -136,12 +135,5 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 - [Finding leaked secrets in your Docker image with a scanner](https://pythonspeed.com/articles/docker-secret-scanner/) - `2022-02-01`.
 - [Security scanners for Python and Docker: from code to dependencies](https://pythonspeed.com/articles/docker-python-security-scan/) - `2020-05-20`.
-
-## Active Directory
-
-### Tools
-
-- [vletoux/pingcastle](https://github.com/vletoux/pingcastle) - Runs an initial scan and gives an high-level overview.
-- [BloodHoundAD/BloodHound](https://github.com/BloodHoundAD/BloodHound) - Checks for attack vectors in AD.
 
 <!-- END CONTENT -->
