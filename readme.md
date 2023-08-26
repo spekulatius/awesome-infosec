@@ -34,7 +34,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
   - [URL Parsers](#url-parsers)
   - [WYSIWYG Editors](#wysiwyg-editors)
   - [XSS](#xss)
-    - [`data:`-Attribute](#data-attribute)
+  - [XSS via `data:`-Attribute](#xss-via-data-attribute)
   - [Request Smuggling](#request-smuggling)
   - [SQLi](#sqli)
 - [Bug Chains](#bug-chains)
@@ -96,7 +96,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts) - Portswigger XSS context break outs.
 - [Breaking XSS mitigations via Script Gadgets](https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf) - Conference talk from 2017 explaining various CSP bypasses using Script Gadgets `2017`.
 
-#### `data:`-Attribute
+### XSS via `data:`-Attribute
 
 - [`#1444682`](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in outdated Swagger UI `2022-01-09`.
 - [`#1276742`](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor `2021-07-24`.
