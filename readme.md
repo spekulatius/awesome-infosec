@@ -54,7 +54,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ### Image Libs: Converters, Resizers, etc. pp
 
-- [`CVE-2023-34153`](https://nvd.nist.gov/vuln/detail/CVE-2023-34153) - Command injection via `video:vsync` or `video:pixel-format` [`Commit`](https://github.com/ImageMagick/ImageMagick/issues/6338) `2023-05-30`.
+- [`CVE-2023-34153`](https://nvd.nist.gov/vuln/detail/CVE-2023-34153) - Command injection via `video:vsync` or `video:pixel-format` [`Fix`](https://github.com/ImageMagick/ImageMagick/issues/6338) `2023-05-30`.
 - [ImageMagick: The hidden vulnerability behind your online images](https://www.metabaseq.com/imagemagick-zero-days/) - `2023-02-01`.
 - [`CVE-2022-44268`](https://github.com/duc-nt/CVE-2022-44268-ImageMagick-Arbitrary-File-Read-PoC) - Arbitrary File Read over ImageMagick [`#1858574`](https://hackerone.com/reports/1858574) [`alternative`](https://github.com/voidz0r/CVE-2022-44268).
 - [ImageMagick - Shell injection via PDF password](https://insert-script.blogspot.com/2020/11/imagemagick-shell-injection-via-pdf.html) - `2021-11-21`.
@@ -68,7 +68,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`CVE-2023-40477`](https://www.zerodayinitiative.com/advisories/ZDI-23-1152/) - code execution via crafted .rar in vulnerable WinRAR versions prior to 6.23 [`PoC (unverified)`](https://github.com/b1tg/CVE-2023-38831-winrar-exploit) `2023-08-17`.
 - [`CVE-2023-32981`](https://nvd.nist.gov/vuln/detail/CVE-2023-32981) - Arbitrary file write vulnerability in Jenkins Pipeline Utility Steps Plugin 2.15.2 and earlier using crafted archives as parameters [`GitHub Security Lab`](https://securitylab.github.com/advisories/GHSL-2023-058_GHSL-2023-059_Pipeline_Utility_Steps_Plugin/) `2023-05-16`.
 - [`#1914118`](https://hackerone.com/reports/1914118) - [`PR`](https://github.com/github/securitylab/issues/728), [`Video`](https://www.youtube.com/watch?v=F95U912u7OQ) `2023-03-21`.
-- [`CVE-2022-3607`](https://huntr.dev/bounties/2d1db3c9-93e8-4902-a55b-5ea53c22aa11/) - ZipSlip Symlink variant allows to read any file within OctoPrint Box in [octoprint/octoprint](https://github.com/OctoPrint/OctoPrint) [`Commit`](https://github.com/octoprint/octoprint/commit/3cca3a43f3d085e9bbe5a5840c8255bb1b5d052e) `2022-08-24`.
+- [`CVE-2022-3607`](https://huntr.dev/bounties/2d1db3c9-93e8-4902-a55b-5ea53c22aa11/) - ZipSlip Symlink variant allows to read any file within OctoPrint Box in [octoprint/octoprint](https://github.com/OctoPrint/OctoPrint) [`Fix`](https://github.com/octoprint/octoprint/commit/3cca3a43f3d085e9bbe5a5840c8255bb1b5d052e) `2022-08-24`.
 
 ### Serialization and Deserialization
 
