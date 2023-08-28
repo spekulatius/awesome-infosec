@@ -128,7 +128,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ### PHP
 
-- [Type Juggling](https://www.php.net/manual/en/language.types.type-juggling.php) - official PHP page.
+- [Type Juggling](https://www.php.net/manual/en/language.types.type-juggling.php) - Official PHP page.
 - [PHP Magic Tricks: Type Juggling](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf) - `2015`.
 
 ### Python
