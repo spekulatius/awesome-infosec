@@ -118,6 +118,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## Bug Chains
 
+- [CVE-2023-36844 and Friends: RCE in Juniper Devices](https://labs.watchtowr.com/cve-2023-36844-and-friends-rce-in-juniper-firewalls/) - Utilising two bugs that would be near-useless in isolation and combining them tp unauthenticated RCE [`CVE-2023-36846`](https://nvd.nist.gov/vuln/detail/CVE-2023-36846) [`CVE-2023-36845`](https://nvd.nist.gov/vuln/detail/CVE-2023-36845) [`PoC`](https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844).
 - [Two XSS Vulnerabilities in Azure with Embedded postMessage IFrames](https://orca.security/resources/blog/examining-two-xss-vulnerabilities-in-azure-services/) - iframe, postMessage and XSS `2023-06-14`.
 - [A smorgasbord of a bug chain: postMessage, JSONP, WAF bypass, DOM-based XSS, CORS, CSRF…](https://jub0bs.com/posts/2023-05-05-smorgasbord-of-a-bug-chain/) - a complex bug chain consisting of an insecure message event listener, a shoddy JSONP endpoint, a WAF bypass, DOM-based XSS on an out-of-scope subdomain, and a permissive CORS configuration `2023-05-05`.
 - [`#1032610`](https://hackerone.com/reports/1032610) - Chaining requests to bypass a blacklist `2020-11-12`.
