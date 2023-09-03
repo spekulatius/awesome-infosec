@@ -139,6 +139,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ### Ruby
 
+- [Universal Deserialisation Gadget for Ruby 2.x-3.x](https://devcraft.io/2021/01/07/universal-deserialisation-gadget-for-ruby-2-x-3-x.html) - `2021-01-07`.
 - [Ruby Deserialization](https://www.elttam.com/blog/ruby-deserialization/#content) - Ruby 2.x Universal RCE Deserialization Gadget Chain `2018-11-08`.
 
 ## Secret-Scanning
