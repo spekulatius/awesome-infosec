@@ -41,6 +41,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Language-Level](#language-level)
   - [PHP](#php)
   - [Python](#python)
+  - [Ruby](#ruby)
 - [Secret-Scanning](#secret-scanning)
   - [Docker](#docker)
 
@@ -135,6 +136,10 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 ### Python
 
 - [Prototype Pollution in Python](https://blog.abdulrah33m.com/prototype-pollution-in-python/) - `2023-01-04`.
+
+### Ruby
+
+- [Ruby Deserialization](https://www.elttam.com/blog/ruby-deserialization/#content) - Ruby 2.x Universal RCE Deserialization Gadget Chain `2018-11-08`.
 
 ## Secret-Scanning
 
