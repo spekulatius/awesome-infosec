@@ -115,9 +115,11 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 ### XSS via `data:`-Attribute
 
 - [`#1444682`](https://hackerone.com/reports/1444682) - XSS over data: at `jamfpro.shopifycloud.com` in outdated Swagger UI `2022-01-09`.
-- [`#1276742`](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor `2021-07-24`.
+- [`#1276742`](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as `data:` url in rich text editor `2021-07-24`.
 
 ## Bug Chains
+
+Multiple single vulnerabilities combined to create a more significant one.
 
 - [`#2089042`](https://hackerone.com/reports/2089042) - ATO via self-XSS and cookie bridge (to switch to local domains: here `yelp.com` to `yelp.dk`). Includes setting additional cookies to break the cookie bridge. `2023-07-28`.
 - [CVE-2023-36844 and Friends: RCE in Juniper Devices](https://labs.watchtowr.com/cve-2023-36844-and-friends-rce-in-juniper-firewalls/) - Utilising two bugs that would be near-useless in isolation and combining them to unauthenticated RCE [ComputerWeekly](https://www.computerweekly.com/news/366550532/Threat-actors-exploiting-unpatched-Juniper-Networks-devices) [`CVE-2023-36846`](https://nvd.nist.gov/vuln/detail/CVE-2023-36846) [`CVE-2023-36845`](https://nvd.nist.gov/vuln/detail/CVE-2023-36845) [`PoC`](https://github.com/watchtowrlabs/juniper-rce_cve-2023-36844).
