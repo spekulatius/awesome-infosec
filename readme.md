@@ -109,7 +109,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [OWASP: XSS Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Filter Evasion Cheat Sheet by OWASP.
 - [Cross-site scripting (XSS) cheat sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - XSS Cheat Sheet by Portswigger.
 - [AwesomeXSS](https://github.com/s0md3v/AwesomeXSS) - Awesome Page about XSS.
-- [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts) - Portswigger XSS context break outs.
+- [Cross-site scripting contexts](https://portswigger.net/web-security/cross-site-scripting/contexts) - Portswigger XSS context breakouts.
 - [Breaking XSS mitigations via Script Gadgets](https://www.blackhat.com/docs/us-17/thursday/us-17-Lekies-Dont-Trust-The-DOM-Bypassing-XSS-Mitigations-Via-Script-Gadgets.pdf) - Conference talk from 2017 explaining various CSP bypasses using Script Gadgets `2017`.
 
 ### XSS via `data:`-Attribute
