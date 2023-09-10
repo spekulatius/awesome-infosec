@@ -28,15 +28,15 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 - [Orientation](#orientation)
 - [Bugs](#bugs)
-  - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
   - [Archives: ZipSlip/TarSlip and others](#archives-zipsliptarslip-and-others)
+  - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
+  - [Request Smuggling](#request-smuggling)
   - [Serialization and Deserialization](#serialization-and-deserialization)
+  - [SQLi](#sqli)
   - [URL Parsers](#url-parsers)
   - [WYSIWYG Editors](#wysiwyg-editors)
-  - [XSS](#xss)
   - [XSS via `data:`-Attribute](#xss-via-data-attribute)
-  - [Request Smuggling](#request-smuggling)
-  - [SQLi](#sqli)
+  - [XSS](#xss)
 - [Bug Chains](#bug-chains)
 - [Language-Level](#language-level)
   - [PHP](#php)
@@ -53,6 +53,13 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ## Bugs
 
+### Archives: ZipSlip/TarSlip and others
+
+- [`CVE-2023-40477`](https://www.zerodayinitiative.com/advisories/ZDI-23-1152/) - code execution via crafted .rar in vulnerable WinRAR versions prior to 6.23 [`PoC (unverified)`](https://github.com/b1tg/CVE-2023-38831-winrar-exploit) `2023-08-17`.
+- [`CVE-2023-32981`](https://nvd.nist.gov/vuln/detail/CVE-2023-32981) - Arbitrary file write vulnerability in Jenkins Pipeline Utility Steps Plugin 2.15.2 and earlier using crafted archives as parameters [`GitHub Security Lab`](https://securitylab.github.com/advisories/GHSL-2023-058_GHSL-2023-059_Pipeline_Utility_Steps_Plugin/) `2023-05-16`.
+- [`#1914118`](https://hackerone.com/reports/1914118) - [`PR`](https://github.com/github/securitylab/issues/728), [`Video`](https://www.youtube.com/watch?v=F95U912u7OQ) `2023-03-21`.
+- [`CVE-2022-3607`](https://huntr.dev/bounties/2d1db3c9-93e8-4902-a55b-5ea53c22aa11/) - ZipSlip Symlink variant allows to read any file within OctoPrint Box in [octoprint/octoprint](https://github.com/OctoPrint/OctoPrint) [`Fix`](https://github.com/octoprint/octoprint/commit/3cca3a43f3d085e9bbe5a5840c8255bb1b5d052e) `2022-08-24`.
+
 ### Image Libs: Converters, Resizers, etc. pp
 
 - [`CVE-2023-34153`](https://nvd.nist.gov/vuln/detail/CVE-2023-34153) - Command injection via `video:vsync` or `video:pixel-format` [`Fix`](https://github.com/ImageMagick/ImageMagick/issues/6338) `2023-05-30`.
@@ -64,18 +71,26 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`CVE-2019-11932`](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) - Double-free bug in WhatsApp turns to RCE [`BBRE`](https://www.youtube.com/watch?v=lplExF6djQ4) `2019-10-02`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution [`Exploit-DB`](https://www.exploit-db.com/exploits/39791).
 
-### Archives: ZipSlip/TarSlip and others
+### Request Smuggling
 
-- [`CVE-2023-40477`](https://www.zerodayinitiative.com/advisories/ZDI-23-1152/) - code execution via crafted .rar in vulnerable WinRAR versions prior to 6.23 [`PoC (unverified)`](https://github.com/b1tg/CVE-2023-38831-winrar-exploit) `2023-08-17`.
-- [`CVE-2023-32981`](https://nvd.nist.gov/vuln/detail/CVE-2023-32981) - Arbitrary file write vulnerability in Jenkins Pipeline Utility Steps Plugin 2.15.2 and earlier using crafted archives as parameters [`GitHub Security Lab`](https://securitylab.github.com/advisories/GHSL-2023-058_GHSL-2023-059_Pipeline_Utility_Steps_Plugin/) `2023-05-16`.
-- [`#1914118`](https://hackerone.com/reports/1914118) - [`PR`](https://github.com/github/securitylab/issues/728), [`Video`](https://www.youtube.com/watch?v=F95U912u7OQ) `2023-03-21`.
-- [`CVE-2022-3607`](https://huntr.dev/bounties/2d1db3c9-93e8-4902-a55b-5ea53c22aa11/) - ZipSlip Symlink variant allows to read any file within OctoPrint Box in [octoprint/octoprint](https://github.com/OctoPrint/OctoPrint) [`Fix`](https://github.com/octoprint/octoprint/commit/3cca3a43f3d085e9bbe5a5840c8255bb1b5d052e) `2022-08-24`.
+- [`#771666`](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on api.zomato.com `2020-01-10`.
+- [HTTP Desync Attacks: Smashing into the Cell Next Door](https://www.youtube.com/watch?v=w-eJM2Pc0KI) - DEF CON 27 Conference talk by James Kettle ([@albinowax](https://twitter.com/albinowax)) of PortSwigger `2019-11-16`.
+- [`#737140`](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack `2019-11-14`.
+- [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn) - `2019-08-07`.
+
+#### Tools
+
+- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool `Python 3`.
 
 ### Serialization and Deserialization
 
 - [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically.
 - [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
 - [Insecure Deserialization Detection in Python](https://scholarworks.sjsu.edu/etd_projects/1270?utm_source=scholarworks.sjsu.edu%2Fetd_projects%2F1270) - Project work by Aneesh Verma discussing deserialization issues `2023-05`.
+
+### SQLi
+
+- [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - SQL Injection Payload List.
 
 ### URL Parsers
 
@@ -101,21 +116,6 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 - [`#1444682`](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in outdated Swagger UI `2022-01-09`.
 - [`#1276742`](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor `2021-07-24`.
-
-### Request Smuggling
-
-- [`#771666`](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on api.zomato.com `2020-01-10`.
-- [HTTP Desync Attacks: Smashing into the Cell Next Door](https://www.youtube.com/watch?v=w-eJM2Pc0KI) - DEF CON 27 Conference talk by James Kettle ([@albinowax](https://twitter.com/albinowax)) of PortSwigger `2019-11-16`.
-- [`#737140`](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack `2019-11-14`.
-- [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn) - `2019-08-07`.
-
-#### Tools
-
-- [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool `Python 3`.
-
-### SQLi
-
-- [payloadbox/sql-injection-payload-list](https://github.com/payloadbox/sql-injection-payload-list) - SQL Injection Payload List.
 
 ## Bug Chains
 
