@@ -69,11 +69,11 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`#1154542`](https://hackerone.com/reports/1154542) - RCE in GitLab when removing metadata with ExifTool `2021-04-07`.
 - [`CVE-2021-32802`](https://nvd.nist.gov/vuln/detail/CVE-2021-32802) - HEIC image preview can be used to invoke Imagick [`#1261413`](https://hackerone.com/reports/1261413) `2020-07-14`.
 - [`CVE-2019-11932`](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) - Double-free bug in WhatsApp turns to RCE [`BBRE`](https://www.youtube.com/watch?v=lplExF6djQ4) `2019-10-02`.
-- [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - 'ImageTragick' Delegate Arbitrary Command Execution [`Exploit-DB`](https://www.exploit-db.com/exploits/39791).
+- [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - "ImageTragick" Delegate Arbitrary Command Execution [`Exploit-DB`](https://www.exploit-db.com/exploits/39791).
 
 ### Request Smuggling
 
-- [`#771666`](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on api.zomato.com `2020-01-10`.
+- [`#771666`](https://hackerone.com/reports/771666) - Stealing Zomato X-Access-Token: in Bulk using HTTP Request Smuggling on `api.zomato.com` `2020-01-10`.
 - [HTTP Desync Attacks: Smashing into the Cell Next Door](https://www.youtube.com/watch?v=w-eJM2Pc0KI) - DEF CON 27 Conference talk by James Kettle ([@albinowax](https://twitter.com/albinowax)) of PortSwigger `2019-11-16`.
 - [`#737140`](https://hackerone.com/reports/737140) - CL.TE-based request smuggling on Slack `2019-11-14`.
 - [HTTP Desync Attacks: Request Smuggling Reborn](https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn) - `2019-08-07`.
@@ -114,7 +114,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ### XSS via `data:`-Attribute
 
-- [`#1444682`](https://hackerone.com/reports/1444682) - XSS over data: at jamfpro.shopifycloud.com in outdated Swagger UI `2022-01-09`.
+- [`#1444682`](https://hackerone.com/reports/1444682) - XSS over data: at `jamfpro.shopifycloud.com` in outdated Swagger UI `2022-01-09`.
 - [`#1276742`](https://hackerone.com/reports/1276742) - Stored XSS in SVG file as data: url in rich text editor `2021-07-24`.
 
 ## Bug Chains
