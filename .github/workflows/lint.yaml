@@ -42,4 +42,4 @@ jobs:
         - name: "install awesome-bot"
           run: gem install awesome_bot
         - name: "linting: ${{ matrix.files }}"
-          run: awesome_bot --skip-save-results --allow-redirect ${{ matrix.files }} --white-list www.synacktiv.com/en/publications/finding-a-pop-chain-on-a-common-symfony-bundle-part-1 --white-list hackerone.com
+          run: awesome_bot --skip-save-results --allow-redirect ${{ matrix.files }} --white-list www.synacktiv.com/en/publications/finding-a-pop-chain-on-a-common-symfony-bundle-part-1,hackerone.com
