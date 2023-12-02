@@ -94,6 +94,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 #### PHP
 
 - [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically.
+- [Code Reuse Attacks in PHP: Automated POP Chain Generation](https://ia803205.us.archive.org/15/items/ARMArchitectureReferenceManual/CodeReuseAttacksInPHPAutomatedPOPChainGeneration.pdf) - Using static analytics to automatically identify POP chains in various PHP frameworks.
 
 #### Python
 
