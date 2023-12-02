@@ -91,9 +91,22 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ### Deserialization
 
-- [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically `PHP`.
-- [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization `Java`.
+#### PHP
+
+- [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically.
+
+#### Python
+
 - [Insecure Deserialization Detection in Python](https://scholarworks.sjsu.edu/etd_projects/1270?utm_source=scholarworks.sjsu.edu%2Fetd_projects%2F1270) - Project work by Aneesh Verma discussing deserialization issues `2023-05`.
+
+#### Java
+
+- [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+
+#### Ruby
+
+- [Universal Deserialisation Gadget for Ruby 2.x-3.x](https://devcraft.io/2021/01/07/universal-deserialisation-gadget-for-ruby-2-x-3-x.html) - `2021-01-07`.
+- [Ruby Deserialization](https://www.elttam.com/blog/ruby-deserialization/#content) - Ruby 2.x Universal RCE Deserialization Gadget Chain `2018-11-08`.
 
 ### SQLi
 
@@ -136,6 +149,7 @@ Multiple single vulnerabilities combined to create a more significant one.
 - [WordPress Transposh: Exploiting a Blind SQL Injection via XSS](https://www.rcesecurity.com/2022/07/WordPress-Transposh-Exploiting-a-Blind-SQL-Injection-via-XSS/) - combining three CVEs using weak default config, using stored XSS, and blind SQL `2022-07-22`. 
 - [XXE-scape through the front door: circumventing the firewall with HTTP request smuggling](https://honoki.net/2020/03/18/xxe-scape-through-the-front-door-circumventing-the-firewall-with-http-request-smuggling/) - XML External Entity injection (XXE) vulnerability combined with request smuggling `2020-03-18`.
 
+
 ## Language-Level
 
 ### PHP
@@ -147,10 +161,6 @@ Multiple single vulnerabilities combined to create a more significant one.
 
 - [Prototype Pollution in Python](https://blog.abdulrah33m.com/prototype-pollution-in-python/) - `2023-01-04`.
 
-### Ruby
-
-- [Universal Deserialisation Gadget for Ruby 2.x-3.x](https://devcraft.io/2021/01/07/universal-deserialisation-gadget-for-ruby-2-x-3-x.html) - `2021-01-07`.
-- [Ruby Deserialization](https://www.elttam.com/blog/ruby-deserialization/#content) - Ruby 2.x Universal RCE Deserialization Gadget Chain `2018-11-08`.
 
 ## Secret Scanning
 
