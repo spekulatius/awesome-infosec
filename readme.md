@@ -42,7 +42,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [Language-Level](#language-level)
   - [PHP](#php)
   - [Python](#python)
-- [Secret-Scanning](#secret-scanning)
+- [Secret Scanning](#secret-scanning)
   - [Docker](#docker)
 
 <!-- CONTENT -->
