@@ -32,7 +32,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
   - [CLI Applications](#cli-applications)
   - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
   - [Request Smuggling](#request-smuggling)
-  - [Serialization and Deserialization](#serialization-and-deserialization)
+  - [Deserialization](#deserialization)
   - [SQLi](#sqli)
   - [URL Parsers](#url-parsers)
   - [WYSIWYG Editors](#wysiwyg-editors)
@@ -43,7 +43,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
   - [PHP](#php)
   - [Python](#python)
   - [Ruby](#ruby)
-- [Secret-Scanning](#secret-scanning)
+- [Secret Scanning](#secret-scanning)
   - [Docker](#docker)
 
 <!-- CONTENT -->
@@ -89,10 +89,10 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 - [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool `Python 3`.
 
-### Serialization and Deserialization
+### Deserialization
 
-- [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically.
-- [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+- [ambionics/phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP `unserialize()`-payloads along with a tool to generate them, from command line or programmatically `PHP`.
+- [frohoff/ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization `Java`.
 - [Insecure Deserialization Detection in Python](https://scholarworks.sjsu.edu/etd_projects/1270?utm_source=scholarworks.sjsu.edu%2Fetd_projects%2F1270) - Project work by Aneesh Verma discussing deserialization issues `2023-05`.
 
 ### SQLi
@@ -152,7 +152,7 @@ Multiple single vulnerabilities combined to create a more significant one.
 - [Universal Deserialisation Gadget for Ruby 2.x-3.x](https://devcraft.io/2021/01/07/universal-deserialisation-gadget-for-ruby-2-x-3-x.html) - `2021-01-07`.
 - [Ruby Deserialization](https://www.elttam.com/blog/ruby-deserialization/#content) - Ruby 2.x Universal RCE Deserialization Gadget Chain `2018-11-08`.
 
-## Secret-Scanning
+## Secret Scanning
 
 ### Docker
 
