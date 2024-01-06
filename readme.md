@@ -157,6 +157,7 @@ Multiple single vulnerabilities combined to create a more significant one.
 
 - [Type Juggling](https://www.php.net/manual/en/language.types.type-juggling.php) - Official PHP page.
 - [PHP Magic Tricks: Type Juggling](https://owasp.org/www-pdf-archive/PHPMagicTricks-TypeJuggling.pdf) - `2015`.
+- [PHP filters chain](https://www.synacktiv.com/en/publications/php-filters-chain-what-is-it-and-how-to-use-it) - What is it and how to use it `2022`.
 
 ### Python
 
