@@ -80,10 +80,10 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 
 ### Font Files
 
-- [Fonts are still a Helvetica of a Problem](https://www.canva.dev/blog/engineering/fonts-are-still-a-helvetica-of-a-problem/) - Canva Dev-blog covering
-  - [`CVE-2023-45139`](https://nvd.nist.gov/vuln/detail/CVE-2023-45139) - XXE via generating a subset from a font,
-  - [`CVE-2024-25081`](https://nvd.nist.gov/vuln/detail/CVE-2024-25081) - command-injection via filenames in subfonts, and
-  - [`CVE-2024-25082`](https://nvd.nist.gov/vuln/detail/CVE-2024-25082) - similar to previous one, but in archives of compressed WOFF (ZLIB-based) / WOFF2 (Brotli-based) fonts
+- [Fonts are still a Helvetica of a Problem](https://www.canva.dev/blog/engineering/fonts-are-still-a-helvetica-of-a-problem/) - Canva Dev-blog covering:
+  - [`CVE-2023-45139`](https://nvd.nist.gov/vuln/detail/CVE-2023-45139) - XXE via generating a subset from a font.
+  - [`CVE-2024-25081`](https://nvd.nist.gov/vuln/detail/CVE-2024-25081) - command-injection via filenames in subfonts.
+  - [`CVE-2024-25082`](https://nvd.nist.gov/vuln/detail/CVE-2024-25082) - similar to previous one, but in archives of compressed WOFF (ZLIB-based) / WOFF2 (Brotli-based) fonts.
 
 ### Request Smuggling
 
