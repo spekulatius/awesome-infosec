@@ -31,6 +31,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
   - [Archives: ZipSlip/TarSlip and others](#archives-zipsliptarslip-and-others)
   - [CLI Applications](#cli-applications)
   - [Image Libs: Converters, Resizers, etc. pp](#image-libs-converters-resizers-etc-pp)
+  - [Font Files](#font-files)
   - [Request Smuggling](#request-smuggling)
   - [Deserialization](#deserialization)
   - [SQLi](#sqli)
@@ -76,6 +77,14 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`CVE-2021-32802`](https://nvd.nist.gov/vuln/detail/CVE-2021-32802) - HEIC image preview can be used to invoke Imagick [`#1261413`](https://hackerone.com/reports/1261413) `2020-07-14`.
 - [`CVE-2019-11932`](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/) - Double-free bug in WhatsApp turns to RCE [`BBRE`](https://www.youtube.com/watch?v=lplExF6djQ4) `2019-10-02`.
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - "ImageTragick" Delegate Arbitrary Command Execution [`Exploit-DB`](https://www.exploit-db.com/exploits/39791).
+
+### Font Files
+<!--lint disable awesome-list-item-->
+- [Fonts are still a Helvetica of a Problem](https://www.canva.dev/blog/engineering/fonts-are-still-a-helvetica-of-a-problem/) - Canva Dev-blog covering:
+  - [`CVE-2023-45139`](https://nvd.nist.gov/vuln/detail/CVE-2023-45139) - XXE via generating a subset from a font,
+  - [`CVE-2024-25081`](https://nvd.nist.gov/vuln/detail/CVE-2024-25081) - Command-injection via filenames in subfonts,
+  - [`CVE-2024-25082`](https://nvd.nist.gov/vuln/detail/CVE-2024-25082) - Similar to previous one, but in archives of compressed WOFF (ZLIB-based) / WOFF2 (Brotli-based) fonts.
+<!--lint enable awesome-list-item-->
 
 ### Request Smuggling
 
