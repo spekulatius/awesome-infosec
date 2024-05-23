@@ -79,11 +79,12 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 - [`CVE-2016-3714`](https://nvd.nist.gov/vuln/detail/CVE-2016-3714) - "ImageTragick" Delegate Arbitrary Command Execution [`Exploit-DB`](https://www.exploit-db.com/exploits/39791).
 
 ### Font Files
-
+<!--lint disable awesome-list-item-->
 - [Fonts are still a Helvetica of a Problem](https://www.canva.dev/blog/engineering/fonts-are-still-a-helvetica-of-a-problem/) - Canva Dev-blog covering:
-  - [`CVE-2023-45139`](https://nvd.nist.gov/vuln/detail/CVE-2023-45139) - XXE via generating a subset from a font.
-  - [`CVE-2024-25081`](https://nvd.nist.gov/vuln/detail/CVE-2024-25081) - command-injection via filenames in subfonts.
-  - [`CVE-2024-25082`](https://nvd.nist.gov/vuln/detail/CVE-2024-25082) - similar to previous one, but in archives of compressed WOFF (ZLIB-based) / WOFF2 (Brotli-based) fonts.
+  - [`CVE-2023-45139`](https://nvd.nist.gov/vuln/detail/CVE-2023-45139) - XXE via generating a subset from a font,
+  - [`CVE-2024-25081`](https://nvd.nist.gov/vuln/detail/CVE-2024-25081) - Command-injection via filenames in subfonts,
+  - [`CVE-2024-25082`](https://nvd.nist.gov/vuln/detail/CVE-2024-25082) - Similar to previous one, but in archives of compressed WOFF (ZLIB-based) / WOFF2 (Brotli-based) fonts.
+<!--lint enable awesome-list-item-->
 
 ### Request Smuggling
 
