@@ -85,6 +85,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
   - [`CVE-2024-25081`](https://nvd.nist.gov/vuln/detail/CVE-2024-25081) - Command-injection via filenames in subfonts,
   - [`CVE-2024-25082`](https://nvd.nist.gov/vuln/detail/CVE-2024-25082) - Similar to previous one, but in archives of compressed WOFF (ZLIB-based) / WOFF2 (Brotli-based) fonts.
 <!--lint enable awesome-list-item-->
+- [`CVE-2024-4367`](https://nvd.nist.gov/vuln/detail/CVE-2024-4367) - Glyph rendering in Mozilla's PDF.js leads to JavaScript Execution [`Codean Labs`](https://codeanlabs.com/blog/research/cve-2024-4367-arbitrary-js-execution-in-pdf-js/).
 
 ### Request Smuggling
 
