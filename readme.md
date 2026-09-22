@@ -96,6 +96,7 @@ Personal notes and awesome infosec stuff for a bash-focused workflow. Highly sub
 #### Tools
 
 - [defparam/smuggler](https://github.com/defparam/smuggler) - An HTTP Request Smuggling / Desync testing tool `Python 3`.
+- [KeyDrift](https://keydrift.dev) - Scans deployed HTML and JavaScript for exposed secrets while recognizing public browser credentials that should not be treated as leaks.
 
 ### Deserialization
 
